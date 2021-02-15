@@ -1,0 +1,15 @@
+.imageUpload {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.imageupload__progress {
+  width: 100%;
+}
+
+.imageupload__padding {
+  margin: 3px;
+}

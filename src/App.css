@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  height: 250px;
+  margin-left: 30px;
+  width: 300px;
+}
+
+.logOut__icon {
+  font-size: 25px;
+}
+
+.like__icon {
+  font-size: 20px;
+}
+
+.home__icon {
+  font-size: 25px;
+}
+
+.app__postsRight_info {
+  font-size: 10px;
+  display: block;
+  width: 100%;
+  color: #C7C7C7;
+}
+
+.app__postsRight_facebook {
+  font-size: 10px;
+  display: block;
+  width: 60%;
+  color: #C7C7C7;
+  margin-top: 15px;
+}
+
+.app__postsRight_thingsToDo {
+  margin-bottom: 30px;
+}
+
+.app__postsRight_thingsToDo_header {
+  font-size: 13px;
+  color: #8e8e8e;
+  margin-bottom: 5px;
+}
+
+.app__postsRight_thingsToDo_p {
+  font-size: 11px;
+  color: #8e8e8e;
+}
+
+.signIn__container {
+
+}
+
+.app__header {
+  background-color: white;
+  padding: 5px 150px 5px 300px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage {
+  object-fit: contain;
+  width: 50%;
+}
+
+.app__headerBarImage {
+  object-fit: contain;
+  width: 12%;
+}
+
+.signIn__input {
+  width: 75%;
+  display: flex;
+  margin: 5px auto;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding: 0 8px;
+  background-color: rgb(232, 240, 254);
+}
+
+.sigIn__p {
+  width: 75%;
+  text-align: center;
+  border-bottom: 1px solid #8e8e8e;
+  line-height: 0.1em;
+  margin: 30px auto 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #8e8e8e;
+}
+
+.sigIn__span {
+  background:#fff; 
+  padding:0 10px; 
+}
+
+.app__headerImage_signIn {
+  object-fit: contain;
+  width: 200px;
+  margin: 25px 6px 15px 5px;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__loginedContainer {
+  display: flex;
+}
+
+.post__avatar {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.start__container {
+  object-fit: contain;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.start__image {
+  width: 25%;
+}
+
+.start__loginRight {
+  margin-left: 10px;
+}
+
+.start__login {
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  width: 340px;
+  margin-top: 30px;
+  height: fit-content;
+}
+
+.start_signUp {
+  height: fit-content;
+  border: 1px solid #dbdbdb;
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px 30px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.start__headerImage {
+  display: block;
+  margin: auto;
+  padding: 20px;
+}
+
+.facebook {
+  margin: 10px auto;
+  color: #00376b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.forgotPassword {
+  margin: 15px;
+  text-align: center;
+  font-size: 11px;
+  color: #00376b;
+  font-weight: 500;
+}
+
+.get__app {
+  text-align: center;
+  font-size: 13px;
+  margin: 20px;
+}

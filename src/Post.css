@@ -1,0 +1,117 @@
+.post {
+  background-color: white;
+  max-width: 614px;
+  border: 1px solid lightgrey;
+  margin-bottom: 45px;
+}
+
+.post__image {
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.post__text {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  padding: 7px 10px 8px;
+}
+
+.post__header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.comment__container {
+  display: flex;
+  padding-bottom: 3px;
+}
+
+.like__icon {
+  margin-top: 4px;
+  width: 12px;
+  padding-right: 5px;
+}
+
+.post__header_container {
+  display: block;
+  padding-left: 7px;
+}
+
+.post__header_username {
+  font-size: 14px;
+}
+
+
+.post__header_location {
+  font-size: 12px;
+}
+
+.post__avatar {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.post__commentBox {
+  display: flex;
+  margin-top: 10px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.comment {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  flex: 1;
+}
+
+.comment__username {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+.post__comments {
+  padding: 0 10px 5px;
+}
+
+.post__input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  
+}
+.post__input:focus {
+  border: none;
+  outline: none;
+}
+
+.post__button {
+  flex: 0;
+  border: none;
+  color: #6082a3;
+  background-color: transparent;
+  padding-right: 13px;
+}
+
+.post__iconContainer {
+  display: flex;
+}
+
+.post__iconsRight {
+  padding-left: 10px;
+  flex: 1;
+}
+
+.header__icon {
+  width: 23px;
+  height: 23px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
